@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+		<title>Jquery project</title>
+		
+		
+		<script src="jquery-1.11.3.js"></script>
+		<script src="script.js"></script>	
+	</head>
+	<body>
+		<div id="body">
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,51 @@
+$(document).ready(function () {
+$("<button id=\"button\">Clear</button>").appendTo("#body");
+$("<br/>").appendTo("#body");
+var clicked = "false";
+var index = prompt("choose other scale");
+for (var j = 0; j < 16; j++) {
+	for (var i = 0; i < index; i++) {
+		$("<div class = \"row\"></div>").appendTo("#body");
+	}
+	$("<br/>").appendTo("#body");
+}
+	$(".row").css("display","inline-block");
+	$(".row").css("margin-top","5px");
+	$(".row").css("margin-left","5px");
+	$(".row").css("margin-right","5px");
+	$(".row").css("margin-bottom","5px");
+	$(".row").css("width","20px");
+	$(".row").css("height","20px");
+	$(".row").css("border-style","solid");
+	$(".row").css("border-width", "1px");
+	$(".row").css("border-color"," black");
+	
+			
+
+
+$(".row").mouseenter(function () {
+				
+		$(this).css("background-color","#FF00FF");			
+				
+});
+$(".row").mouseleave(function () {
+		
+			$(this).css("background-color","#F0F0F0");
+				
+
+});
+
+$("#button").click(function () {
+	
+		$(".row").css("background-color","#FFFFFF");
+		index = 
+		
+		clicked = "true";
+
+});
+	
+
+});
+
+
+	

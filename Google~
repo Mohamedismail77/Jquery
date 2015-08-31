@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Google</title>
+</head>
+<body>
+
+<div id="topnavar"></div>
+	<ul class="nav">
+		<li ><a href="">Google+</a></li>
+		<li><a href ="">Web</a></li>
+		<li><a href="">Image</a></li>
+		<li><a href="">Maps</a></li>
+		<li><a href="">YouTube</a></li>
+		<li><a href="">News</a></li>
+		<li><a href="">Gmail</a></li>
+		<li><a href="">Drive</a></li>
+		<li>
+			<ul>
+				<li><a href="">Cleander</a></li>
+				<li><a href="">Translate</a></li>
+				<li><a href="">Blogger</a></li>
+				<li><a href="">Documents</a></li>
+				<li><a href="">More</a></li>			
+			</ul>
+		</li>
+	
+	</ul>
+<div id="logo"></div>
+<div id="search"></div>
+<div id="footer"></div>
+</body>
+
+
+</html>
